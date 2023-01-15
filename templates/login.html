@@ -2,7 +2,7 @@
    <body>
       <title>Made by aditya</title>
       <h1>Welcome to BMI Calculator</h1>
-      <form action = "http://localhost:5000/login" method = "post">
+      <form action = "{{ url_for('login') }}" method = "post">
          <p>Enter First Name:</p>
          <p><input type = "text" name = "firstname" /></p>
          <p>Enter Last Name:</p>
